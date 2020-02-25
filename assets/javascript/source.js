@@ -3,131 +3,131 @@ var wordGuessGame = {
     // Object of all words that can be chosen, along with info such as their picture and a song clip.
     wordsToPick: {
         cardinals: {
-            image: "https://sportslogohistory.com/wp-content/uploads/2017/12/arizona_cardinals_2005-pres.png",
+            image: "cardinals.png",
             teamName: "Arizona Cardinals"
         },
         falcons: {
-            image: "https://rfathead-res.cloudinary.com/image/upload/q_auto,f_auto/c_pad,h_3000/g_north,c_crop,h_3000,w_3000/c_pad,h_3000,w_3000/room/applied_icon/pool_images/NFL/AI-NFPO0203_Atlanta_Falcons_Logo_Giant_Officially_Licensed_Pool_Graphic_prod-all.jpg",
+            image: "falcons.jpg",
             teamName: "Atlanta Falcons"
         },
         ravens: {
-            image: "https://i.pinimg.com/originals/85/a9/c5/85a9c5624ab4c210de3841e1e39e7730.jpg",
+            image: "ravens.jpg",
             teamName: "Baltimore Ravens"
         },
         bills: {
-            image: "https://images-na.ssl-images-amazon.com/images/I/71IuIW7SPpL._AC_SX425_.jpg",
+            image: "bills.jpg",
             teamName: "Buffalo Bills"
         },
         panthers: {
-            image: "https://dks.scene7.com/is/image/dkscdn/19ASSUNFLPNTHRS12CAR_is?wid=685&fmt=jpg",
+            image: "panthers.jpg",
             teamName: "Carolina Panthers"
         },
         bears: {
-            image: "https://images.homedepot-static.com/productImages/6ded15a8-56db-4b7a-b862-959c328734dc/svn/orange-applied-icon-wall-decals-nfop0603-64_1000.jpg",
+            image: "bears.jpg",
             teamName: "Chicago Bears"
         },
         bengals: {
-            image: "https://rfathead-res.cloudinary.com/image/upload/q_auto,f_auto/c_pad,h_900/g_north,c_crop,h_900,w_900/c_pad,h_900,w_900/room/applied_icon/pool_images/NFL/AI-NFPO0703_Cincinnati_Bengals_Logo_Giant_Officially_Licensed_Pool_Graphic_prod-all.jpg",
+            image: "bengals.jpg",
             teamName: "Cincinnati Bengals"
         },
         browns: {
-            image: "https://usatftw.files.wordpress.com/2015/02/helmet_top_center1.png?w=1000",
+            image: "browns.jpg",
             teamName: "Cleveland Browns"
         },
         cowboys: {
-            image: "https://i.pinimg.com/originals/9b/d7/4f/9bd74fc0e9547d6da161c2c9c6e485e3.jpg",
+            image: "cowboys.jpg",
             teamName: "Dallas Cowboys"
         },
         broncos: {
-            image: "https://images-na.ssl-images-amazon.com/images/I/71n4eFBg87L._AC_SL1500_.jpg",
+            image: "broncos.jpg",
             teamName: "Denver Broncos"
         },
         lions: {
-            image: "https://i.pinimg.com/originals/6f/4b/af/6f4baf1eeb3f109ba06048e39062f416.jpg",
+            image: "lions.jpg",
             teamName: "Detroit Lions"
         },
         packers: {
-            image: "https://images-na.ssl-images-amazon.com/images/I/51H4DWAOYwL._AC_SY355_.jpg",
+            image: "packers.jpg",
             teamName: "Green Bay Packers"
         },
         texans: {
-            image: "https://images-na.ssl-images-amazon.com/images/I/41hSIKVY73L._AC_SX425_.jpg",
+            image: "texans.jpg",
             teamName: "Houston Texans"
         },
         colts: {
-            image: "https://rfathead-res.cloudinary.com/image/upload/q_auto,f_auto/c_pad,h_3000/g_north,c_crop,h_3000,w_3000/c_pad,h_3000,w_3000/room/applied_icon/pool_images/NFL/AI-NFPO1403_Indianapolis_Colts_Logo_Giant_Officially_Licensed_Pool_Graphic_prod-all.jpg",
+            image: "colts.jpg",
             teamName: "Indianapolis Colts"
         },
         jaguars: {
-            image: "https://i.pinimg.com/originals/74/3e/42/743e429c9b2142330f2471be8ae885ff.png",
+            image: "jaguars.png",
             teamName: "Jacksonville Jaguars"
         },
         chiefs: {
-            image: "https://i.pinimg.com/originals/e6/7f/4f/e67f4fd39305d4c5fdd5d9b7ff3a629e.jpg",
+            image: "chiefs.jpg",
             teamName: "Kansas City Chiefs"
         },
         chargers: {
-            image: "https://rfathead-res.cloudinary.com/image/upload/q_auto,f_auto/c_pad,h_900/g_north,c_crop,h_900,w_900/c_pad,h_900,w_900/room/applied_icon/pool_images/NFL/AI-NFPO2703_Los_Angeles_Chargers_Logo_Giant_Officially_Licensed_Pool_Graphic_prod-all.jpg",
+            image: "chargers.jpg",
             teamName: "Los Angeles Chargers"
         },
         rams: {
-            image: "https://images.fun.com/products/51410/1-1/nfl-los-angeles-rams-logo-foam-sign-update1.jpg",
+            image: "rams.jpg",
             teamName: "Los Angeles Rams"
         },
         dolphins: {
-            image: "https://images.homedepot-static.com/productImages/08a09b25-a938-4318-b5c9-dcffeebc9f05/svn/teal-applied-icon-wall-decals-nfop1803-64_1000.jpg",
+            image: "dolphins.jpg",
             teamName: "Miami Dolphins"
         },
         vikings: {
-            image: "https://rfathead-res.cloudinary.com/image/upload/q_auto,f_auto/c_pad,h_900/g_north,c_crop,h_900,w_900/c_pad,h_900,w_900/room/applied_icon/pool_images/NFL/AI-NFPO1903_Minnesota_Vikings_Logo_Giant_Officially_Licensed_Pool_Graphic_prod-all.jpg",
+            image: "vikings.jpg",
             teamName: "Minnesota Vikings"
         },
         patriots: {
-            image: "https://i5.walmartimages.com/asr/b1abfa00-13e6-4e33-957d-e119fab40b48_1.d6fdb90d5d709fdd4b560811da1291d5.jpeg",
+            image: "patriots.jpeg",
             teamName: "New England Patriots"
         },
         saints: {
-            image: "https://fanatics.frgimages.com/FFImage/thumb.aspx?i=/productimages/_2746000/ff_2746583_full.jpg&w=900",
+            image: "saints.jpg",
             teamName: "New Orleans Saints"
         },
         giants: {
-            image: "https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcT0S4hmGZs87ChkEoKw6p7LMXMBrthELK7pfo_2p2LRdwz9lE_6",
+            image: "giants.png",
             teamName: "New York Giants"
         },
         jets: {
-            image: "https://cdn-profiles.tunein.com/s276408/images/logog.png",
+            image: "jets.jpeg",
             teamName: "New York Jets"
         },
         raiders: {
-            image: "https://images.homedepot-static.com/productImages/c9123b60-dfbb-4171-a1db-f018f6b4202e/svn/team-adventure-furniture-wall-signs-n0843-oak-64_600.jpg",
+            image: "rainders.jpg",
             teamName: "Oakland Raiders"
         },
         eagles: {
-            image: "https://images.homedepot-static.com/productImages/26120e54-c2df-4017-8d28-71dcf11193f2/svn/green-applied-icon-wall-decals-nfop2501-64_1000.jpg",
+            image: "eagles.jpg",
             teamName: "Philadelphia Eagles"
         },
         steelers: {
-            image: "https://m.media-amazon.com/images/I/410hPrGu1RL._SR500,500_.jpg",
+            image: "steelers.jpg",
             teamName: "Pittsburgh Steelers"
         },
         niners: {
-            image: "https://rfathead-res.cloudinary.com/image/upload/q_auto,f_auto/c_pad,h_3000/g_north,c_crop,h_3000,w_3000/c_pad,h_3000,w_3000/room/applied_icon/pool_images/NFL/AI-NFPO2803_San_Francisco_49ers_Logo_Giant_Officially_Licensed_Pool_Graphic_prod-all.jpg",
+            image: "49ers.jpg",
             teamName: "San Francisco 49ers"
         },
         seahawks: {
-            image: "https://rfathead-res.cloudinary.com/image/upload/q_auto,f_auto/c_pad,h_900/g_north,c_crop,h_900,w_900/c_pad,h_900,w_900/room/applied_icon/pool_images/NFL/AI-NFPO2903_Seattle_Seahawks_Logo_Giant_Officially_Licensed_Pool_Graphic_prod-all.jpg",
+            image: "seahawks.jpg",
             teamName: "Seattle Seahawks"
         },
         buccaneers: {
-            image: "https://images.homedepot-static.com/productImages/c60e3818-fb32-4298-a6a1-76a6099619d9/svn/red-applied-icon-wall-decals-nfop3003-64_600.jpg",
+            image: "buccaneers.jpg",
             teamName: "Tampa Bay Buccaneers"
         },
         titans: {
-            image: "https://rfathead-res.cloudinary.com/image/upload/q_auto,f_auto/c_pad,h_900/g_north,c_crop,h_900,w_900/c_pad,h_900,w_900/room/applied_icon/pool_images/NFL/AI-NFPO3103_Tennessee_Titans_Logo_Giant_Officially_Licensed_Pool_Graphic_prod-all.jpg",
+            image: "titans.jpg",
             teamName: "Tennessee Titans"
         },
         redskins: {
-            image: "https://rfathead-res.cloudinary.com/image/upload/q_auto,f_auto/c_pad,h_3000/g_north,c_crop,h_3000,w_3000/c_pad,h_3000,w_3000/room/applied_icon/pool_images/NFL/AI-NFPO3203_Washington_Redskins_Logo_Giant_Officially_Licensed_Pool_Graphic_prod-all.jpg",
+            image: "redskins.jpg",
             teamName: "Washington Redskins"
         }
     },
@@ -294,7 +294,8 @@ var wordGuessGame = {
   
         // Update the image of the band on the page.
         document.querySelector("#teamLogo").innerHTML =
-          "<img src=" +this.wordsToPick[this.wordInPlay].image + "/>"
+          "<img src = assets/images/" + this.wordsToPick[this.wordInPlay].image + "/>"
+          
   
         //Update the full team name on the page
         document.querySelector("#teamName").innerHTML =
