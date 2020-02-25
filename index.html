@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Hangman 2</title>
+    <link rel="stylesheet" href="./assets/css/index.css">
+</head>
+<body class="bg-green-500">
+    <div class="w-4/5 bg-gray-800 shadow-2xl rounded-lg mx-auto my-6 text-white" style="background-color: #52070e; background-image: url(https://www.transparenttextures.com/patterns/leather.png)">
+            <div class="flex items-center justify-between my-6 py-4 px-6">
+                
+                <div class="inline-block mx-4 tracking-wide">
+                    <h5 class="text-lg my-8">
+                        Word to Guess:
+                    </h5>
+                    <p class="my-4" id="wordToGuess"></p>
+                    <h5 class="text-lg my-8">
+                        Letters Guessed:
+                    </h5>
+                    <p class="my-4" id="guessedLetters"></p>
+                    <div class="my-4">
+                        <img id="teamLogo">
+                        <p id="teamName"></p>
+                    </div>
+
+                </div>
+                
+                <div class="inline-block">
+                    <h1 class="text-2xl font-semibold text-center tracking-wide">
+                        NFL Hangman Game
+                    </h1>
+                    <p class="text-center font-hairline">Press any key to begin!</p>
+                    <p class="text-center mt-4 font-hairline">Words to guess include all 32 team names</p>
+                        <img class="my-4 rounded-lg inline border border-gray-600" src="assets/images/nfl-logos.jpeg"/>
+                </div>
+
+                <div class="inline-block mx-4 tracking-wide">
+                    <h5 class="text-lg my-8">
+                        Wins:
+                    </h5>
+                    <p class="my-4" id="wins"></p>
+                    <h5 class="text-lg my-8">
+                        Losses:
+                    </h5>
+                    <p class="my-4" id="losses"></p>
+                    <h5 class="text-lg my-8">
+                        Guesses Remaining:
+                    </h5>
+                    <p class="my-4" id="guessesRemaining"></p>
+                </div>
+
+            </div>
+            
+    </div>
+       
+</body>
+<script type="text/javascript" src="assets/javascript/source.js"></script>
+</html>
