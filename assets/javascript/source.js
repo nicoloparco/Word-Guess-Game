@@ -141,6 +141,7 @@ var wordGuessGame = {
     totalGuesses: 0,
     letterGuessed: null,
     wins: 0,
+    losses: 0,
   
     // The setupGame method is called when the page first loads.
     setupGame: function() {
@@ -161,6 +162,8 @@ var wordGuessGame = {
     updatePage: function(letter) {
       // If the user has no guesses left, restart the game.
       if (this.guessesLeft === 1) {
+        this.losses ++
+        document.querySelector("#losses").innerHTML = this.losses;
         this.restartGame();
       }
       // Otherwise...
